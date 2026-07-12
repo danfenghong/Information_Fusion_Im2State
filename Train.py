@@ -54,7 +54,7 @@ if __name__=="__main__":
 
     ## Model Config
     parser = argparse.ArgumentParser(description="PyTorch Code for HSI Fusion")
-    parser.add_argument('--data_path', default='/mnt/sda/pzj/data/fusion_data/CAVE/Train/', type=str,
+    parser.add_argument('--data_path', default='/mnt/sda/xxx/data/CAVE/Train/', type=str,
                         help='Path of the training data')
     parser.add_argument("--sizeI", default=96, type=int, help='The image size of the training patches')
     parser.add_argument("--batch_size", default=4, type=int, help='Batch size')
