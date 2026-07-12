@@ -1,7 +1,7 @@
 import torch.utils.data as tud
 import argparse
 from Utils import *
-from CAVE_Dataset import cave_dataset
+from Dataset import cave_dataset
 from imageio import imsave
 import torchvision
 from SSIM import *	
@@ -19,7 +19,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 
 
 parser = argparse.ArgumentParser(description="PyTorch Code for HSI Fusion")
-parser.add_argument('--data_path', default='/mnt/sda/pzj/data/fusion_data/CAVE/Test/', type=str, help='path of the testing data')
+parser.add_argument('--data_path', default='/xxx/data/CAVE/Test/', type=str, help='path of the testing data')
 parser.add_argument("--sizeI", default=512, type=int, help='the size of trainset')
 parser.add_argument("--testset_num", default=12, type=int, help='total number of testset')
 parser.add_argument("--batch_size", default=1, type=int, help='Batch size')
@@ -43,7 +43,7 @@ output = []
 # xxx=[100,110,120,130,140,150,160,170,180,190,200]#4:198,8:199.16.8:180
 xxx=[100,110,120,130,140,150,160,170,180,190,200]#4:198,8:199.16.8:180
 for ii in xxx:
-    model = torch.load("/mnt/sda/pzj/2025mambafusion/mri_git/1mambaablation/CAVE/Checkpoint/f16/model_0"+str(ii)+".pth")#198
+    model = torch.load("/xxx/CAVE/Checkpoint/f16/model_0"+str(ii)+".pth")#198
     model = model.eval()
     model = model.cuda()
 
