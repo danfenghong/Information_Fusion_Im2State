@@ -25,7 +25,6 @@ The table below compiles the official download links for every dataset used to f
 | CAVE    | [Download](https://pan.baidu.com/s/1mLT9qD30LDYBk-SdUEToKQ) with code: `i5qd`        | [Download](https://pan.baidu.com/s/1sNrqBJBX3NrVWamwIHa-SA) with code: `2gkd`                       |
 | Pavia Center       | [Download](https://pan.baidu.com/s/16IWAzFFO4HcIwRB1w20nqQ) with code: `s32h`                                                                    | [Download](https://pan.baidu.com/s/1AWkNMrNh0Qt2P7l6O82NfQ) with code: `vyy3`                       |
 | Washington DC Mall          | [Download](https://pan.baidu.com/s/1A4ihiqlz-8gyLozCJyuwWQ) with code: `w8pb`                             | [Download](https://pan.baidu.com/s/1uvnv67OYJDIy7afiTSRKuw) with code: `95qx`                     |
-| Chikusei     | [Download](https://pan.baidu.com/s/1KQleHo_SOyhh59cIBTtqrw) with code: `d84t`                             | [Download](https://pan.baidu.com/s/1A4yZb5T0TmZw517IktxFRA)           |
 
 ---
 
